@@ -4,45 +4,69 @@
 body{
 
     background-color: cornsilk;
+    color:  rgb(11, 36, 70);
+    font-family:"Lucida Console", Courier, monospace;
+
 }
 .thumbnail img{
   margin-right: 20px;
   margin-bottom: 20px;
-  width:400px
+  width:500px
 }
 
 @media (max-width: 640px) {
-    .navbar{
+    .navigation{
         max-height: 60px;
-        background-color:rgb(139, 114, 61);
+        background-color:cornsilk;
       }
     }
     
-    
-    
+    .navigation{
+      background-color: rgb(12,134,179);
+      font-size:18px;
+    }
+    .navbar-brand {
+      background-color: rgb(12,134,179);
+      font-size:18px;
+    }
     .navbar-brand {padding: 15;}
-    
-    .container-fluid {
+
+    .dropdown{
+      background-color: rgb(12, 134, 179);
+      font-size:18px;
+    }
+
+    .dropdown-menu{
+      background-color: rgb(12, 134, 179);
+      font-size:18px;
+    }
+
+    .nav-item{
+      background-color: rgb(12,134,179);
+      font-size:18px;
+    }
+
+
+    .container-fluid{
       padding-right: 40px;
       padding-left: 40px;
+      padding-top:40px;
+      padding-bottom:40px;
     }
-    .col-lg-4 {
-        background:rgb(61, 134, 139)
+    .col-md-8 {
+        background:cornsilk;
+  
       }
-    .col-lg-8 {
-        background: rgb(61, 134, 139)  
+    .col-md-4 {
+        background:cornsilk ;
+      
       }
-    .col-4 {
-        background: rgb(61, 134, 139)
-    }
-    .col-12{
-        background:rgb(61, 134, 139)
-    }
+
     
     
     
     h1 {
-      color: rgb(0, 0, 0);
+      color: rgb(11, 36, 70);
       text-align: center;
     }
     
@@ -51,24 +75,12 @@ body{
       text-align: center;
     }
     
-    h3 {
-      color:rgb(0, 0, 0);
+    #h3 {
+      color:rgb(22, 13, 59);
     } 
-    h4 {
-      padding: 0px;
-      margin: 0;
-      color:rgb(0, 0, 0);
-      text-align: center;
-    }
+   
+   
     
-    h6 {
-      padding: 0px;
-      margin: 0;
-      color: rgb(0, 0, 0);
-      text-align: left;
-    
-    }
-    
-    hr { display: block; height: 1px;
-      border: 0; border-top: 1px solid rgb(238, 135, 17);
+    hr { display: block; height: 15px;
+      border: 15px; border-top: 15px solid rgb(12, 134, 179);
       margin: 1em 0; padding: 0; }
